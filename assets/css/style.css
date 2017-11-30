@@ -1,0 +1,191 @@
+html {
+    position: relative;
+    min-height: 100%;
+    background: url("../images/dark_embroidery.png") rgb(54, 54, 54);
+  }
+  
+body {
+    margin-bottom: 90px;
+    background: url("../images/dark_embroidery.png") rgb(54, 54, 54);
+  }
+
+h1,
+h2,
+h3 { 
+    font-weight: bold;
+}
+
+h1, h2, h3 {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+
+/* nav bar */
+
+.navbar {
+    background: black;
+    border: none;
+    border-bottom: 2px solid orangered;
+    height: 90px;
+}
+
+.navbar-brand {
+    background: orangered;
+    text-align: center;
+    height: 90px;
+    padding: 5px 20px;
+}
+
+.navbar-brand h1 {
+    color: #fff;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    background-color: orangered;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background: transparent;
+}
+
+.navbar-nav li a {
+    line-height: 50px;
+    font-size: 1.3em;
+    color: #fff;
+    background: black !important; /* overides bootstrap */
+   }
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: orangered;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+    margin-top: 0;
+}
+
+/* After the navbar most everything else is pretty easy and I was able to almost copy and paste my css from my first assignment into here */
+
+.content {
+    background: rgba(255, 255, 255, 0.863);
+    border: 2px solid orangered;
+    padding: 0 30px 20px 30px;
+    margin-bottom: 40px;
+}
+
+.content h1 {
+    color: orangered;
+}
+
+.page-header {
+    border-bottom: 3px solid orangered;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.panel {
+    background: rgba(255, 255, 255, 0.863);
+    border: 2px solid orangered;
+    border-radius: 0;
+    padding: 0 10px;
+}
+
+.panel h3 {
+    color: orangered;
+    font-size: 1.5em;
+    margin-top: 0.83em 0 0.83em 0;
+}
+
+/* I had to remove a lot of the default bootstrap css on top of adding css to get the right look */
+
+.panel-default > .panel-heading {
+    background: rgba(255, 255, 255, 0.048);
+    border-radius: 0;
+    border-bottom: 3px solid orangered;
+    padding-left: 0;
+    margin-top: 2px;
+}
+
+.thumbnail {
+    background:rgba(255, 255, 255, 0.048);
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* contact.html */
+
+input[type=submit] {
+    background: orangered;
+    text-align: center;
+    margin: 0 0 10px 0;
+    color: #fff;
+    font-size: 1em;
+    padding: 10px 20px;
+    width: 20%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+form .btn-default:hover {
+    background: #a64208;
+    color: #fff;
+    border: none;
+}
+
+form .btn-default:active {
+    background: orangered !important;
+    color: #fff !important;
+}
+
+form .btn-default.focus, .btn-default:focus {
+    background: orange;
+    color: #fff;
+    border: none;
+}
+
+/* portfolio.html */
+
+.gallery a img:hover {
+    outline: 3px !important;
+    outline-offset: -3px !important;
+}
+
+.gallery {
+    position: relative;
+    padding: 15px 0;
+}
+
+.thumbnail .caption {
+    background: orangered;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Georgia', 'Times New Roman', Times, serif; 
+    position: absolute;
+    bottom: 10%;
+}
+
+.thumbnail .caption h3 {
+    margin: 5px;
+}
+
+/* Footer */
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    padding: 30px;
+    background: black;
+    font-size: .95em;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    border-top: 10px solid orangered;
+  }
