@@ -63,8 +63,7 @@ h1, h2, h3 {
     margin-top: 0;
 }
 
-/* After the navbar most everything else is pretty easy and I was able to almost copy and paste my css from my first assignment into here */
-
+/*content*/
 .content {
     background: rgba(255, 255, 255, 0.863);
     border: 2px solid orangered;
@@ -99,7 +98,6 @@ p {
     margin-top: 0.83em 0 0.83em 0;
 }
 
-/* I had to remove a lot of the default bootstrap css on top of adding css to get the right look */
 
 .panel-default > .panel-heading {
     background: rgba(255, 255, 255, 0.048);
